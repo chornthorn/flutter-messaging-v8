@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "58519704053",
+    "firebase_url": "https://flutter-remote-default-rtdb.firebaseio.com",
+    "project_id": "flutter-remote",
+    "storage_bucket": "flutter-remote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58519704053:android:fe0a2d1450c2dd6ce550bc",
+        "android_client_info": {
+          "package_name": "com.exmaple.flutter_firebase_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58519704053-pfsaoc7i26jar9emncsqm329c48v6je4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FLnChjStHepQytD-JM3GTfy29yTDwQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58519704053-pfsaoc7i26jar9emncsqm329c48v6je4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "58519704053-4k3ddbqk1a0rkk16oqpn1056c53qscdb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.co.imake.imakeUpdateVersion"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58519704053:android:0e850e6c0c1de676e550bc",
+        "android_client_info": {
+          "package_name": "com.exmaple.flutter_firebase_messaging_v8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58519704053-pfsaoc7i26jar9emncsqm329c48v6je4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FLnChjStHepQytD-JM3GTfy29yTDwQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58519704053-pfsaoc7i26jar9emncsqm329c48v6je4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "58519704053-4k3ddbqk1a0rkk16oqpn1056c53qscdb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.co.imake.imakeUpdateVersion"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58519704053:android:8a73f39066f7a174e550bc",
+        "android_client_info": {
+          "package_name": "th.co.imake.imake_update_version"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58519704053-pfsaoc7i26jar9emncsqm329c48v6je4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FLnChjStHepQytD-JM3GTfy29yTDwQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58519704053-pfsaoc7i26jar9emncsqm329c48v6je4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "58519704053-4k3ddbqk1a0rkk16oqpn1056c53qscdb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "th.co.imake.imakeUpdateVersion"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
