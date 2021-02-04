@@ -1,11 +1,13 @@
-class UserResModel {
+import '../../../domain/entity/users/user_res_entity.dart';
+
+class UserResModel extends UserResEntity {
   UserResModel({
     this.uid,
     this.name,
     this.email,
   });
 
-  int uid;
+  String uid;
   String name;
   String email;
 

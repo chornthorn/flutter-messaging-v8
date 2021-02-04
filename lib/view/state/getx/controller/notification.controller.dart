@@ -1,10 +1,11 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import '../../../../domain/entity/messages/message_req_entity.dart';
-import 'message.controller.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
 import 'package:uuid/uuid.dart';
+
+import '../../../../domain/entity/messages/message_req_entity.dart';
+import 'message.controller.dart';
 
 class NotificationController extends GetxController {
   FirebaseMessaging messaging = FirebaseMessaging.instance;
@@ -16,7 +17,13 @@ class NotificationController extends GetxController {
     _requestPermission();
     _onInitLocalNotification();
     _onReceiveMessage();
+    _getToken();
     super.onInit();
+  }
+
+  _getToken() async {
+    String token = await FirebaseMessaging.instance.getToken();
+    print("Mobile token is $token");
   }
 
   _requestPermission() async {

@@ -6,7 +6,6 @@ import 'view/route/route_app.dart';
 import 'view/state/getx/binding/notification.binding.dart';
 import 'view/widget/flavor/flavor_banner.dart';
 
-
 class AppIndex extends StatelessWidget {
   const AppIndex({Key key}) : super(key: key);
 
@@ -25,7 +24,7 @@ class AppIndex extends StatelessWidget {
               // Close Keyboard active
             },
             child: GetMaterialApp(
-              initialRoute: '/',
+              initialRoute: '/sign_up',
               initialBinding: NotificationBinding(),
               onGenerateRoute: generateRoute,
               theme: Themes.lightTheme,
